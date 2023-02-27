@@ -3,8 +3,8 @@
 #include "SolarSystem.h"
 
 static constexpr double GravitationalConstant = 6.6743e-11;
-static constexpr double UnrealLengthUnit = 1e9;  // 1 Unit in Unreal is 10^6 m
-static constexpr double UnrealTimeUnit = 50*24*60*60;
+static constexpr double UnrealLengthUnit = 1e9;        // 1 Unit in Unreal is 10^9 m
+static constexpr double UnrealTimeUnit = 30*24*60*60;  // 1s in Unreal represent 30 Days
 
 
 ASolarSystem::ASolarSystem() {
