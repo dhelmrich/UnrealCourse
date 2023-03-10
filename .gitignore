@@ -78,3 +78,6 @@ LinuxNoEditor/*
 *.zip
 WindowsNoEditor/*
 *NoEditor/*
+
+# Ignore Starter Content
+Content/StarterContent/*
